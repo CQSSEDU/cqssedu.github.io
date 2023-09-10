@@ -3250,13 +3250,13 @@ input, select, textarea {
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
-			-moz-transition: opacity 1s ease-in-out;
-			-webkit-transition: opacity 1s ease-in-out;
-			-ms-transition: opacity 1s ease-in-out;
-			transition: opacity 1s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
+			-moz-transition: opacity 2s ease-in-out;
+			-webkit-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
+			-moz-transition-delay: 2s;
+			-webkit-transition-delay: 2s;
+			-ms-transition-delay: 2s;
 			transition-delay: 0.75s;
 			background: #1e252d;
 			content: '';
@@ -3302,10 +3302,10 @@ input, select, textarea {
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		-moz-transition: opacity 2s ease, -moz-transform 2s ease;
+		-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
+		-ms-transition: opacity 2s ease, -ms-transform 2s ease;
+		transition: opacity 1.7s ease, transform 1.7s ease;
 		position: relative;
 		cursor: default;
 		text-align: center;
