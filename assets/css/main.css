@@ -3735,6 +3735,10 @@ input, select, textarea {
 						}
 
 		#nav ul.icons {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
@@ -3743,7 +3747,13 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-weight: 100;
+			letter-spacing: 0.065em;
+			list-style: none;
 			margin-bottom: 0;
+			padding-left: 0;
+			text-transform: uppercase;
 		}
 
 		@media screen and (max-width: 980px) {
