@@ -72,6 +72,9 @@ input, select, textarea {
 	appearance: none;
 }
 
+.bluelight{
+color:#0b40aa;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -2058,6 +2061,7 @@ input, select, textarea {
 	.box {
 		border-color: #eeeeee;
 	}
+
 
 /* Button */
 
