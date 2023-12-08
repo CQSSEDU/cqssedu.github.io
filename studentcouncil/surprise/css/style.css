@@ -3,7 +3,7 @@
 html {
 height: 100%;
 background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-overflow: auto;
+overflow: hidden;
 }
 
 #stars {
@@ -58,7 +58,7 @@ overflow: auto;
 }
 #head {
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 0;
   right: 0;
   color: #FFF;
@@ -72,7 +72,7 @@ overflow: auto;
 }
 #title {
   position: absolute;
-  top: 37%;
+  top: 30%;
   left: 0;
   right: 0;
   color: #FFF;
