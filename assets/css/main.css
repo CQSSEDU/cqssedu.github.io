@@ -1,4 +1,4 @@
-@imponetactionrt url(fontawesome-all.min.css);
+@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
@@ -72,9 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-.bluelight{
-color:#0b40aa;
-}
 /* Basic */
 
 	@-ms-viewport {
@@ -2061,7 +2058,6 @@ color:#0b40aa;
 	.box {
 		border-color: #eeeeee;
 	}
-
 
 /* Button */
 
