@@ -3238,7 +3238,7 @@ input, select, textarea {
 			height: 100%;
 
 			background-image: url(/images/united_bg.png);
-			
+
 			/* background: linear-gradient(139deg,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
 			/* background: radial-gradient(circle at 100% 29.67%,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
 			
@@ -3261,18 +3261,17 @@ input, select, textarea {
 		
 			
 			background-size: 
-				/* 15%,								 */
 				100% auto;
 			background-position: 
-				/* center,								 */
 				center;
 			background-repeat: 
-				/* no-repeat,								 */
-				no-repeat;
+				/* no-repeat; */
+				repeat;
 			background-attachment: 
-				/* scroll,								 */
 				scroll;
+
 			filter: brightness(0.95);
+
 			z-index: -1;
 		}
 
