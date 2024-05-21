@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+
+
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -2953,6 +2956,7 @@ input, select, textarea {
 			}
 
 			header.major > p {
+				font-style: normal;
 				margin-top: 0;
 				text-align: center;
 			}
@@ -3232,12 +3236,42 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+
+			background-image: url(/images/united_bg.png);
+
+			/* background: linear-gradient(139deg,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
+			/* background: radial-gradient(circle at 100% 29.67%,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
+			
+			/* Yellow House */
+			/* background-image: linear-gradient(to top, #fddb92 0%, #ffd500 100%); */
+
+			/* Purple House */
+			/* background-image: linear-gradient(to bottom, #7028e4 0%, #e4a0c0 100%); */
+			/* Red House */
+			/* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+
+			/* Green House */
+			/* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+			
+			/* Orange House */
+			/* background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%); */
+
+			/* Blue House */
+			/* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+		
+			
+			background-size: 
+				100% auto;
+			background-position: 
+				center;
+			background-repeat: 
+				/* no-repeat; */
+				repeat;
+			background-attachment: 
+				scroll;
+
+			filter: brightness(0.95);
+
 			z-index: -1;
 		}
 
