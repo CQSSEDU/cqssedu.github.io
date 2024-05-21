@@ -2953,6 +2953,7 @@ input, select, textarea {
 			}
 
 			header.major > p {
+				font-style: normal;
 				margin-top: 0;
 				text-align: center;
 			}
