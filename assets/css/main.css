@@ -3653,9 +3653,9 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
-		margin: -4rem auto 0 auto;
+		margin: -4rem auto  auto;
 		overflow: hidden;
-		padding: 0 2rem 0 0;
+		padding: 0 1rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -3728,7 +3728,7 @@ input, select, textarea {
 			flex-shrink: 1;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 900;
-			letter-spacing: 0.065em;
+			letter-spacing: 0.045em;
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
@@ -3781,13 +3781,15 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 			font-weight: 100;
-			letter-spacing: 0.065em;
+			letter-spacing: 0.045em;
 			list-style: none;
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+			font-size: 0.9rem;
+			
 		}
 
 		@media screen and (max-width: 980px) {
