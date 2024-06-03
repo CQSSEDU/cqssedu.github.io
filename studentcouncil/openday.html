@@ -25,8 +25,23 @@
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 						<ul class="icons">
-							<img src="/images/SC/logo.png" alt="">
+							<li>
+								<img src="/images/SC/logo.png" alt="" height="61" style="float:left" id="clickableImage">
+							</li>
 						</ul>
+						
+						<script>
+							let clickCount = 0;
+							const maxClicks = 5;
+							const redirectUrl = "https://cqssedu.github.io/studentcouncil/surprise/"; // Change this to the desired URL
+						
+							document.getElementById('clickableImage').addEventListener('click', function() {
+								clickCount++;
+								if (clickCount >= maxClicks) {
+									window.location.href = redirectUrl;
+								}
+							});
+						</script>
 					</nav>
 
 				<!-- Main -->
