@@ -54,30 +54,24 @@
                                 <br>
 								
                                 <p>This site is maintained by the Ministry of Media, <a href="/studentcouncil/index.html">Student Council</a>.</p>
-								<img src="images/ZCS/sillyboy.png" alt="" class="aligncenter" height="50px"/>
+								<img src="images/ZCS/sillyboy.png" alt="" class="aligncenter" height="50px" id="myImage" />
+								<br>
+								<span id="hiddenText" class="heimu" title="surprise" style="display: none; justify-content: center;">Levi Sucks.</span>
+								<script>
+									var clickCount = 0;
+									var image = document.getElementById("myImage");
+									var hiddenText = document.getElementById("hiddenText");
+									image.addEventListener("click", function() {
+										clickCount++;
+										if (clickCount === 5) {
+											hiddenText.style.display = "flex";
+										}
+									});
+								</script>
 							</section>
 					</div>
 
-				<!-- Footer -->
-				<footer id="intro">
-					<section class="split contact">
-						<section class="alt">
-							<h3>Address <br />学校地址</h3>
-							<h7>No.559 Qixinghe Road, Huangdao District, <br/>
-								Qingdao, Shandong Province, China <br />山东省青岛市黄岛区七星河路559号</h7>
-						</section>
-						
-						<section>
-							<h3><br />Phone <br />电话</h3>
-							<p>+86 8888 8888</a></p>
-						</section>
-						<section>
-							<h3><br />Email <br />电子邮件</h3>
-							<p><a href="mailto:info@untitled.tld">info@untitled.tld</a></p>
-						</section>
-					</section>
-					
-				</footer>
+				
 			<!-- Copyright -->
 				<div id="copyright">
 					<ul><li>&copy; 2024 Canada Qingdao Secondary School</li><li>All Rights Reserved.</li><br /><br /></ul>
