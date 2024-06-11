@@ -11,11 +11,7 @@
 */
 
 /*Extra CSS*/
-.center-image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 /* FILEPATH: /e:/Documents/GitHub/cqssedu.github.io/assets/css/main.css */
 /* BEGIN: ed8c6549bwf9 */
@@ -2649,12 +2645,17 @@ input, select, textarea {
 		
 
 /* Image */
+	
+	.center_image {
+		align-items: center;
+	}
 
 	.image {
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
+
 
 		.image img {
 			display: block;
