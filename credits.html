@@ -55,24 +55,26 @@
 								
                                 <p>This site is maintained by the Ministry of Media, <a href="/studentcouncil/index.html">Student Council</a>.</p>
 								
+								<!-- Eggs -->
 								<div style="display: flex; justify-content: center;">
-									<img src="images/ZCS/sillyboy.png" alt="" height="50px" id="myImage"/>
+									<img src="images/ZCS/sillyboy.png" alt="Click me!" height="50px" id="myImage" title="Click me!" />
 								</div>
-								<br>
-
-								<span id="hiddenText" class="heimu" title="surprise" style="display: none; justify-content: center;">Levi Sucks.</span>
-								
+								<span id="hiddenText" class="heimu" title="surprise" style="display: none; justify-content: center;">Come on, Levi sucks!</span>
 								<script>
 									var clickCount = 0;
 									var image = document.getElementById("myImage");
 									var hiddenText = document.getElementById("hiddenText");
 									image.addEventListener("click", function() {
 										clickCount++;
-										if (clickCount === 5) {
+										if (clickCount === 10) {
 											hiddenText.style.display = "flex";
+										} else if (clickCount === 11) {
+											hiddenText.style.display = "none";
+											clickCount = 0;
 										}
 									});
 								</script>
+
 							</section>
 					</div>
 
