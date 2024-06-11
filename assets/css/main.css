@@ -11,31 +11,59 @@
 */
 
 /*Extra CSS*/
-
-.aligncenter {
-    clear: both;
-    display: block;
-    margin: auto;
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+/* FILEPATH: /e:/Documents/GitHub/cqssedu.github.io/assets/css/main.css */
+/* BEGIN: ed8c6549bwf9 */
 
 .heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
-    text-shadow: none;
+	background-color: #252525;
+	color: #252525;
+	text-shadow: none;
 }
+
 .heimu:hover, .heimu:active,
 .heimu:hover .heimu, .heimu:active .heimu {
-    color: white !important;
+	color: white !important;
 }
+
 .heimu:hover a, a:hover .heimu,
 .heimu:active a, a:active .heimu {
-    color: lightblue !important;
+	color: lightblue !important;
 }
+
 .heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
 .heimu:active .new, .heimu .new:active, .new:active .heimu {
-    color: #BA0000 !important;
+	color: #BA0000 !important;
 }
+
+/* Vendor Prefixes */
+@supports (-webkit-text-fill-color: transparent) {
+	.heimu, .heimu a, a .heimu, .heimu a.new {
+		-webkit-text-fill-color: #252525;
+	}
+
+	.heimu:hover, .heimu:active,
+	.heimu:hover .heimu, .heimu:active .heimu {
+		-webkit-text-fill-color: white !important;
+	}
+
+	.heimu:hover a, a:hover .heimu,
+	.heimu:active a, a:active .heimu {
+		-webkit-text-fill-color: lightblue !important;
+	}
+
+	.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+	.heimu:active .new, .heimu .new:active, .new:active .heimu {
+		-webkit-text-fill-color: #BA0000 !important;
+	}
+}
+
+/* END: ed8c6549bwf9 */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -311,6 +339,9 @@ input, select, textarea {
 
 	.align-center {
 		text-align: center;
+		clear: both;
+		display: block;
+		margin: auto;
 	}
 
 	.align-right {
