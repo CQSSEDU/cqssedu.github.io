@@ -12,6 +12,13 @@
 
 /*Extra CSS*/
 
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+
 .heimu, .heimu a, a .heimu, .heimu a.new {
     background-color: #252525;
     color: #252525;
