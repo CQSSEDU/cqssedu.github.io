@@ -10,6 +10,33 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*Extra CSS*/
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+
+.heimu, .heimu a, a .heimu, .heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+.heimu:hover, .heimu:active,
+.heimu:hover .heimu, .heimu:active .heimu {
+    color: white !important;
+}
+.heimu:hover a, a:hover .heimu,
+.heimu:active a, a:active .heimu {
+    color: lightblue !important;
+}
+.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+.heimu:active .new, .heimu .new:active, .new:active .heimu {
+    color: #BA0000 !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3242,8 +3269,8 @@ input, select, textarea {
 			/* background-image: url(/images/united_bg.png); */
 
 			/* background: linear-gradient(139deg,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
-			/* background: radial-gradient(circle at 100% 29.67%,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%);  */
-			
+			/* background: radial-gradient(circle at 100% 29.67%,#D40909 14.23%,#FF9C00 28.51%,#FFFF1A 42.85%,#00FF0B 57.14%,#00B2FE 71.42%,#8603FF 85.71%); 
+			 */
 			/* Yellow House */
 			/* background-image: linear-gradient(to top, #fddb92 0%, #ffd500 100%); */
 
@@ -3253,8 +3280,8 @@ input, select, textarea {
 			/* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
 
 			/* Green House */
-			/* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
-			
+			/* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+			 */
 			/* Orange House */
 			/* background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%); */
 
