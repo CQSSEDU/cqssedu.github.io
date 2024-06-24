@@ -251,17 +251,15 @@
 			<script src="assets/js/main.js"></script>
 
 			<script>
+				//Strongly insisted by Levi Ji to add this feature.
+				//So lets do it, rotate!
 				let clickCount = 0;
 				const imageElement = document.getElementById('rotatable-image');
 				imageElement.addEventListener('click', function() {
 				  clickCount++;
-				  
 				  if (clickCount >= 7) {
 					   clickCount = 0;
-					
 					   imageElement.style.transform = 'rotate(360deg)';
-					
-				
 					setTimeout(function() {
 					  imageElement.style.transform = 'rotate(0deg)';
 					}, 500); 
